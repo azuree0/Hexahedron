@@ -1,0 +1,22 @@
+---
+description: Hexahedron — no unsolicited terminal cmake --build after routine edits (IDE build preferred).
+alwaysApply: true
+---
+
+# CMake / MSVC — routine edits
+
+For this repo (**Hexahedron**), **do not** run a PowerShell **Build** after **every** source change:
+
+- **Avoid** unsolicited patterns such as  
+  `Set-Location "c:\Users\Azure\Documents\Axiom\C++\Hexahedron\build"; cmake --build .`  
+  (or `--config Release`) **unless** the user asked to build, verify, ship, or diagnose compile errors.
+
+**Assume** the user compiles from the **IDE** (Visual Studio, CMake target, Cursor task) for day-to-day edits.
+
+**Do** run **Configure + Build** in the agent terminal when:
+
+- The user explicitly asks to **build**, **verify**, **Release**, or **fix compile errors**.
+- **`CMakeLists.txt`**, toolchain, presets, or dependency layout **changes**.
+- You need **evidence** before claiming the project **builds** or tests pass.
+
+Routine `.cpp` / `.h` fixes do **not** require a terminal **`cmake --build`** loop after each save.
