@@ -1,3 +1,5 @@
+<img width="516" height="607" alt="H" src="https://github.com/user-attachments/assets/1634a42a-7e7f-4af6-a3e8-b7472a157036" />
+
 # Prior
 
 ## Install
@@ -27,7 +29,7 @@ cmake --build build --config Release
 │                                                                            │
 │  Rules: 6 faces, 6x6 stickers each, 216 surface stickers total.            │
 |                                                                            |
-│  Goal: each face one uniform brown hue (6 browns when solved).             │
+│  Goal: each face one uniform brown hues.                                   │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -35,17 +37,41 @@ cmake --build build --config Release
 # History
 
 ```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  1974 — Erno Rubik prototypes a 3x3x3 hinged cube in Hungary.              │
-│                                     ▼                                      │
-│  1977 — Hungarian patent; working name Magic Cube.                         │
-│                                     ▼                                      │
-│  1980 — Ideal Toy exports Rubik's Cube; global puzzle craze.               │
-│                                     ▼                                      │
-│  1980s onward — higher-order NxNxN puzzles extend face and slice turns.    │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  400 BCE — ANCIENT GREECE                                                │
+  │  Plato links 5 regular solids to elements; cube (“earth”) = hexahedron   │
+  │  Mathematical study of polyhedra; later Euclid, Elements (~300 BCE)      │
+  └───────────────────────────────────┬──────────────────────────────────────┘
+                                      │
+                                      v
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  200 BCE — 1400 CE — CLASSICAL / MEDIEVAL                                │
+  │  Greek math via commentators & Persia scholars; solid geometry preserved │
+  └───────────────────────────────────┬──────────────────────────────────────┘
+                                      │
+                                      v
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  1400s — 1600s — RENAISSANCE                                             │
+  │  Polyhedra in art & architecture; perspective; coords (Descartes, 1600s) │
+  └───────────────────────────────────┬──────────────────────────────────────┘
+                                      │
+                                      v
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  1800s — 1900s — MODERN MATH & SCIENCE                                   │
+  │  Crystallography (cubic systems); group theory — symmetries of the cube  │
+  └───────────────────────────────────┬──────────────────────────────────────┘
+                                      │
+                                      v
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  1900s — 2000s — COMPUTATION & PLAY                                      │
+  │  3D graphics (meshes, linear algebra)                                    │
+  └───────────────────────────────────┬──────────────────────────────────────┘
+                                      │
+                                      v
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  TODAY                                                                   │
+  │  Real-time rendering, engines, STEM tools                                │
+  └──────────────────────────────────────────────────────────────────────────┘
 ```
 
 # Structure
