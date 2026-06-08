@@ -1,8 +1,6 @@
-<img width="516" height="607" alt="H" src="https://github.com/user-attachments/assets/1634a42a-7e7f-4af6-a3e8-b7472a157036" />
+<img width="869" height="1024" alt="H" src="https://github.com/user-attachments/assets/3f656e97-cb66-41db-bf0a-be252f75d8e6" />
 
 # Prior
-
-## Install
 
 - **CMake 3.20+**               — https://cmake.org/download/
 - **C++17** (MSVC)              — https://visualstudio.microsoft.com/downloads/
